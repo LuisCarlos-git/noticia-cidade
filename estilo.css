@@ -1,0 +1,93 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #fff url( imagens/fundo.png) repeat-x;
+}
+#conteiner {
+	width: 750px;
+	margin: 0 auto;
+}
+#topo{
+	height: 150px;
+	padding-top: 25px;
+	background: url(imagens/detalhe-topo.png) no-repeat right top;
+}
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(imagens/logo.png) no-repeat center;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#topo ul  {
+	margin-top: 25px;
+	padding: 10px;
+	background-color: #E50303;
+	float: left;
+} 
+#topo ul li {
+	float: left;
+}
+#topo ul a {
+	color: white;
+	font-size: 12pt;
+	text-decoration: none;
+	display: block;
+	padding: 4px 22px;
+	line-height: 16px;
+}
+#topo ul a:hover  {
+	color: #969696;
+}
+
+/*conteudos*/
+
+#conteudo{
+	margin-top: 65px;	
+}
+#primario{
+	margin: 0 0 20px 180px;
+	width: 270px;
+	float: left;
+}
+#uma-coluna #primario{
+	margin: 0 0 20px 0;
+	width: 550px;
+	float: left;
+}
+#duas-colunas #primario{
+	margin: 0 0 20px 180px;
+	width: 550px;
+	float: left;
+}
+#duas-colunas #primario{
+	margin: 0 0 20px 180px;
+	width: 750px;
+	float: left;
+}
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+#lateral{
+	margin: 0 0 20px -750px;
+	width: 180px;
+	float: left;
+}
+/*caixa*/
+.caixa{
+	margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3 url(imagens/fundo-caixa.png);
+}
+h2 {
+	font-size: 15pt;
+	background-color: #294c71;
+	color: #fff;
+}
