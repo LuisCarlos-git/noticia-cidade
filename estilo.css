@@ -114,14 +114,16 @@ input {
 	font-size: 0.9em;
 }
 
-input.botao{
+.botao{
 	box-shadow: 0 0 1px 1px #222;
 	border-radius: 5px;
 	font-weight: bold;
+	padding: 5px;
 	margin-top: 5px;
 	width: 90px;
 	color: #fff;
 	font-size: 0.9em;
+	cursor: pointer;
 	background-color: #01DFD7;
 }/*conteudo primario*/
 h3 {
@@ -136,4 +138,16 @@ h3 {
 	background-color: #b10333;
 	color: #fff;
 	
+}
+.link a { 
+	font-weight: bold;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 1px 1px #222;
+	text-decoration: none;
+	padding: 5px;
+	background-color: #01DFD7; 
+}
+.paragrafo{
+	margin-bottom: 10px;
 }
