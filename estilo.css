@@ -57,17 +57,11 @@ ul{
 }
 #uma-coluna #primario{
 	margin: 0 0 20px 0;
-	width: 550px;
 	float: left;
 }
 #duas-colunas #primario{
 	margin: 0 0 20px 180px;
 	width: 550px;
-	float: left;
-}
-#duas-colunas #primario{
-	margin: 0 0 20px 180px;
-	width: 750px;
 	float: left;
 }
 #secundario{
