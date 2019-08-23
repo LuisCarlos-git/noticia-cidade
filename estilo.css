@@ -123,14 +123,14 @@ input {
 	width: 90px;
 	color: #fff;
 	font-size: 0.9em;
-	cursor: pointer;
+	curso:pointer;
 	background-color: #01DFD7;
-}/*conteudo primario*/
+}/*conteudo */
 h3 {
 	margin-bottom: 5px;
 	text-transform: uppercase;
 	font-size: 0.9em;
-	display: inline;
+	display: block;
 	padding: 3px;
 
 }
@@ -150,4 +150,21 @@ h3 {
 }
 .paragrafo{
 	margin-bottom: 10px;
+}
+.imagen{
+	width: 80px;
+	margin-top: 5px;
+	float: left;
+}
+.link-noticias h3 {
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.link-noticias a {
+	color: #222;
+	text-decoration: none;
+}
+.link-noticias p {
+	font-size: 0.8em;
 }
